@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- MAIN -->
+    <string name="app_name">RsNews</string>
+    <string name="recent_news">Recent Runescape News</string>
+    <string name="runescape_videos">New Runescape Videos</string>
+    <string name="wuwrs_videos">WhatsUpWithRs Videos</string>
+
+    <!-- MENU -->
+    <string name="menu_about">About</string>
+    <string name="menu_notify">Notifications</string>
+
+    <!-- BUTTONS -->
+    <string name="btn_back">Go Back</string>
+    
+    <!-- OTHER -->
+    <string name="video">A video</string>
+
+</resources>

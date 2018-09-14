@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relMainAct"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/linMainPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center" >
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnRecentNews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnRunescapeVideo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:onClick="gotoRecentNews"
+        android:text="@string/recent_news" />
+
+    <Button
+        android:id="@+id/btnRunescapeVideo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnRecentNews"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:onClick="gotoRunescapeVideo"
+        android:text="@string/runescape_videos" />
+
+    <Button
+        android:id="@+id/btnWhatsUpWithRsVideo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnRunescapeVideo"
+        android:layout_below="@+id/btnRunescapeVideo"
+        android:layout_marginTop="30dp"
+        android:onClick="gotoWhatsUpWithRsVideo"
+        android:text="@string/wuwrs_videos" />
+
+</RelativeLayout>
